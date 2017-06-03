@@ -43,7 +43,7 @@
   </div>
 </template>
 
-<script type="text/babel">
+<script>
   import ElInputNumber from 'element-ui/packages/input-number';
   import SliderButton from './button.vue';
   import { getStyle } from 'element-ui/src/utils/dom';
