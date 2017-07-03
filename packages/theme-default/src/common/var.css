@@ -431,7 +431,9 @@
   --pagination-button-disabled-color: #e4e4e4;
   --pagination-button-disabled-fill: var(--color-white);
   --pagination-border-color: var(--disabled-border-base);
-  --pagination-hover-fill: var(--color-primary);
+  --pagination-hover-fill: #05B7F1;
+  /*--pagination-border-color-source: #05B7F1;
+  --pagination-hover-fill-source: #05B7F1;*/
   --pagination-hover-color: var(--color-white);
 
   /* Popover

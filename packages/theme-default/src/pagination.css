@@ -56,7 +56,7 @@
       background-color: var(--pagination-fill);
       border: 1px solid var(--pagination-border-color);
       cursor: pointer;
-      margin: 0;
+      margin: 0 0 0 10px;
       color: var(--pagination-button-color);
 
       .el-icon {
@@ -67,12 +67,12 @@
 
     .btn-prev {
       border-radius: var(--pagination-border-radius) 0 0 var(--pagination-border-radius);
-      border-right: 0;
+      /*border-right: 0;*/
     }
 
     .btn-next {
       border-radius: 0 var(--pagination-border-radius) var(--pagination-border-radius) 0;
-      border-left: 0;
+      /*border-left: 0;*/
     }
 
     @m small {
@@ -157,7 +157,7 @@
     li {
       padding: 0 4px;
       border: 1px solid var(--pagination-border-color);
-      border-right: 0;
+      /*border-right: 0;*/
       background: var(--pagination-fill);
       vertical-align: top;
       display: inline-block;
@@ -168,7 +168,7 @@
       cursor: pointer;
       box-sizing: border-box;
       text-align: center;
-      margin: 0;
+      margin: 0 0 0 10px;
 
       &:last-child {
         border-right: 1px solid var(--pagination-border-color);
@@ -189,7 +189,7 @@
       }
 
       &.active + li {
-        border-left: 0;
+        /*border-left: 0;*/
         padding-left: 5px;
       }
 

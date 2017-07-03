@@ -100,7 +100,7 @@ export default {
             type="button"
             class={['btn-prev', { disabled: this.$parent.internalCurrentPage <= 1 }]}
             on-click={ this.$parent.prev }>
-            上一页
+            <i class="el-icon el-icon-arrow-left"></i>
           </button>
         );
       }
@@ -116,7 +116,7 @@ export default {
               { disabled: this.$parent.internalCurrentPage === this.$parent.internalPageCount || this.$parent.internalPageCount === 0 }
             ]}
             on-click={ this.$parent.next }>
-            下一页
+            <i class="el-icon el-icon-arrow-right"></i>
           </button>
         );
       }
@@ -222,7 +222,7 @@ export default {
       render(h) {
         return (
           typeof this.$parent.total === 'number'
-            ? <span class="el-pagination__total">{ this.t('el.pagination.total', { total: this.$parent.total }) + '数据' }</span>
+            ? <span class="el-pagination__total">{ this.t('el.pagination.total', { total: this.$parent.total }) }</span>
             : ''
         );
       }
